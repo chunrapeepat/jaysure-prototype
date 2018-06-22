@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import Card from './Card'
+import Navbar from './Navbar'
 import {Container} from '../core/helper'
 
 const AppContainer = styled.div`
@@ -11,16 +12,22 @@ const AppContainer = styled.div`
 `
 
 export default () => (
-  <Container>
-    <AppContainer>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-    </AppContainer>
-  </Container>
+  <div>
+    <Navbar />
+    <Container>
+      <AppContainer>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+      </AppContainer>
+    </Container>
+  </div>
 )

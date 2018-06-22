@@ -39,4 +39,5 @@ export const media = Object.keys(sizes).reduce((accumulator, label) => {
 export const Container = styled.div`
   width: ${sizes.desktop}px;
   margin: auto auto;
+  position: relative;
 `
