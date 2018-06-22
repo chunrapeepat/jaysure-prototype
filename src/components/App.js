@@ -16,18 +16,54 @@ export default () => (
     <Navbar />
     <Container>
       <AppContainer>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
+        <Card
+          heading="Chun Rapeepat"
+          desc="What the dick man??? Hello 123"
+          img="http://via.placeholder.com/350x200"/>
+
+        <Card
+          heading="Chun Rapeepat"
+          desc="What the dick man??? Hello 123"
+          img="http://via.placeholder.com/350x200"/>
+        <Card
+          heading="Chun Rapeepat"
+          desc="What the dick man??? Hello 123"
+          img="http://via.placeholder.com/350x200"/>
+        <Card
+          heading="Chun Rapeepat"
+          desc="What the dick man??? Hello 123"
+          img="http://via.placeholder.com/350x200"/>
+        <Card
+          heading="Chun Rapeepat"
+          desc="What the dick man??? Hello 123"
+          img="http://via.placeholder.com/350x200"/>
+        <Card
+          heading="Chun Rapeepat"
+          desc="What the dick man??? Hello 123"
+          img="http://via.placeholder.com/350x200"/>
+        <Card
+          heading="Chun Rapeepat"
+          desc="What the dick man??? Hello 123"
+          img="http://via.placeholder.com/350x200"/>
+        <Card
+          heading="Chun Rapeepat"
+          desc="What the dick man??? Hello 123"
+          img="http://via.placeholder.com/350x200"/>
+        <Card
+          heading="Chun Rapeepat"
+          desc="What the dick man??? Hello 123"
+          img="http://via.placeholder.com/350x200"/>
+        <Card
+          heading="Chun Rapeepat"
+          desc="What the dick man??? Hello 123"
+          img="http://via.placeholder.com/350x200"/>
+        <Card
+          heading="Chun Rapeepat"
+          desc="What the dick man??? Hello 123"
+          img="http://via.placeholder.com/350x200"/>
+
       </AppContainer>
+      <br/><br/>
     </Container>
   </div>
 )

@@ -25,12 +25,12 @@ const Desc = styled.div`
   color: #555;
 `
 
-export default () => (
+export default ({img, heading, desc}) => (
   <Container>
-    <img src="http://via.placeholder.com/350x200"/>
+    <img src={img}/>
     <div>
-      <Heading>Chun Rapeepat</Heading>
-      <Desc>What the dick man??? Hello 123</Desc>
+      <Heading>{heading}</Heading>
+      <Desc>{desc}</Desc>
     </div>
   </Container>
 )
