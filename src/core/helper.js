@@ -37,18 +37,6 @@ export const media = Object.keys(sizes).reduce((accumulator, label) => {
 
 // all helper components
 export const Container = styled.div`
-  width: ${sizes.screen}px;
+  width: ${sizes.desktop}px;
   margin: auto auto;
-  ${media.screen`
-    width: auto;
-    margin: 0 30px;
-  `}
-  ${media.desktop`
-    width: auto;
-    margin: 0 20px;
-  `}
-  ${media.tablet`
-    width: auto;
-    margin: 0 10px;
-  `}
 `
